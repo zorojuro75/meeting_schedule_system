@@ -1,0 +1,41 @@
+# Binaries for programs and plugins
+/bin/
+*.exe
+*.dll
+*.so
+*.dylib
+*.test
+
+# Output of the go coverage tool
+coverage.out
+
+# Common build dirs
+/build/
+/dist/
+
+# Dependency directories (remove the comment to include it)
+/vendor/
+
+# Environment files (do NOT commit secrets)
+.env
+
+# Logs
+*.log
+
+# IDE/editor folders
+.vscode/
+.idea/
+*.iml
+
+# macOS
+.DS_Store
+
+# Temporary files
+*.tmp
+*.swp
+
+# Go specific
+*.out
+
+# node_modules (if any front-end exists in repo)
+node_modules/
